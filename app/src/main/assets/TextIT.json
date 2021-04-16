@@ -1,0 +1,541 @@
+{
+	"widget": "android.widget.RelativeLayout",
+	"properties": [{
+		"name": "background",
+		"type": "color",
+		"value": "#e5e5e5"
+	},
+		{
+			"name": "layout_width",
+			"type": "dimen",
+			"value": "match_parent"
+		},
+		{
+			"name": "layout_height",
+			"type": "dimen",
+			"value": "match_parent"
+		}],
+	"views": [{
+		"widget": "android.widget.RelativeLayout",
+		"properties": [{
+			"name": "layout_width",
+			"type": "dimen",
+			"value": "362dp"
+		},
+			{
+				"name": "layout_height",
+				"type": "dimen",
+				"value": "wrap_content"
+			},
+			{
+				"name": "background",
+				"type": "ref",
+				"value": "shape|corner:8|color:'#ffffff'"
+			},
+			{
+				"name": "layout_marginLeft",
+				"type": "dimen",
+				"value": "15dp"
+			},
+			{
+				"name": "layout_marginRight",
+				"type": "dimen",
+				"value": "15dp"
+			},
+			{
+				"name": "layout_centerHorizontal",
+				"type": "boolean",
+				"value": "true"
+			},
+			{
+				"name": "layout_marginTop",
+				"type": "dimen",
+				"value": "10dp"
+			}],
+		"views": [
+			{
+				"widget": "android.widget.ImageView",
+				"properties": [{
+					"name": "id",
+					"type": "",
+					"value": "iv_one"
+				},
+					{
+						"name": "layout_width",
+						"type": "dimen",
+						"value": "15dp"
+					},
+					{
+						"name": "layout_height",
+						"type": "dimen",
+						"value": "15dp"
+					},
+					{
+						"name": "background",
+						"type": "ref",
+						"value": "@drawable/logo"
+					},
+					{
+						"name": "layout_marginTop",
+						"type": "dimen",
+						"value": "7dp"
+					},
+					{
+						"name": "layout_marginLeft",
+						"type": "dimen",
+						"value": "15dp"
+					}
+
+				]},
+			{
+				"widget": "android.widget.TextView",
+				"properties": [{
+					"name": "id",
+					"type": "",
+					"value": ""
+				},
+					{
+						"name": "layout_width",
+						"type": "dimen",
+						"value": "wrap_content"
+					},
+					{
+						"name": "layout_height",
+						"type": "dimen",
+						"value": "wrap_content"
+					},
+					{
+						"name": "layout_marginLeft",
+						"type": "dimen",
+						"value": "7dp"
+					},
+					{
+						"name": "layout_marginTop",
+						"type": "dimen",
+						"value": "7dp"
+					},
+					{
+						"name": "text",
+						"type": "string",
+						"value": "携程旅行"
+					},
+
+					{
+						"name": "textSize",
+						"type": "dimen",
+						"value": "10sp"
+					},
+					{
+						"name": "layout_toRightOf",
+						"type": "ref",
+						"value": "iv_one"
+					},
+					{
+						"name": "textColor",
+						"type": "color",
+						"value": "#333333"
+					}]
+			},
+			{
+				"widget": "android.widget.ImageView",
+				"properties": [
+					{
+						"name": "layout_width",
+						"type": "dimen",
+						"value": "35dp"
+					},
+					{
+						"name": "layout_height",
+						"type": "dimen",
+						"value": "35dp"
+					},
+					{
+						"name": "layout_centerHorizontal",
+						"type": "boolean",
+						"value": "true"
+					},
+					{
+						"name": "layout_marginTop",
+						"type": "dimen",
+						"value": "37dp"
+					},
+					{
+						"name": "background",
+						"type": "ref",
+						"value": "@drawable/plane"
+					}]
+			},
+
+			{
+				"widget": "android.widget.TextView",
+				"properties": [{
+					"name": "id",
+					"type": "",
+					"value": "tv_one"
+				},
+					{
+						"name": "layout_width",
+						"type": "dimen",
+						"value": "wrap_content"
+					},
+					{
+						"name": "layout_height",
+						"type": "dimen",
+						"value": "wrap_content"
+					},
+
+					{
+						"name": "text",
+						"type": "string",
+						"value": "深圳"
+					},
+					{
+						"name": "layout_marginTop",
+						"type": "dimen",
+						"value": "60dp"
+					},
+					{
+						"name": "layout_marginLeft",
+						"type": "dimen",
+						"value": "34dp"
+					},
+					{
+						"name": "textColor",
+						"type": "color",
+						"value": "#333333"
+					},
+					{
+						"name": "textSize",
+						"type": "dimen",
+						"value": "20sp"
+					}
+				]
+			},
+			{
+				"widget": "android.widget.TextView",
+				"properties": [{
+					"name": "id",
+					"type": "",
+					"value": "tv_two"
+				},
+					{
+						"name": "layout_width",
+						"type": "dimen",
+						"value": "wrap_content"
+					},
+					{
+						"name": "layout_height",
+						"type": "dimen",
+						"value": "wrap_content"
+					},
+					{
+						"name": "layout_below",
+						"type": "ref",
+						"value": "tv_one"
+					},
+					{
+						"name": "text",
+						"type": "string",
+						"value": "去程"
+					},
+					{
+						"name": "layout_marginTop",
+						"type": "dimen",
+						"value": "20dp"
+					},
+					{
+						"name": "layout_marginLeft",
+						"type": "dimen",
+						"value": "34dp"
+					},
+					{
+						"name": "textColor",
+						"type": "color",
+						"value": "#494949"
+					},
+					{
+						"name": "textSize",
+						"type": "dimen",
+						"value": "12sp"
+					}
+				]
+			},
+			{
+				"widget": "android.widget.TextView",
+				"properties": [
+					{
+						"name": "layout_width",
+						"type": "dimen",
+						"value": "wrap_content"
+					},
+					{
+						"name": "layout_height",
+						"type": "dimen",
+						"value": "wrap_content"
+					},
+					{
+						"name": "layout_below",
+						"type": "ref",
+						"value": "tv_two"
+					},
+					{
+						"name": "text",
+						"type": "string",
+						"value": "6月1日(周五)"
+					},
+					{
+						"name": "layout_marginTop",
+						"type": "dimen",
+						"value": "8dp"
+					},
+					{
+						"name": "layout_marginLeft",
+						"type": "dimen",
+						"value": "34dp"
+					},
+					{
+						"name": "textColor",
+						"type": "color",
+						"value": "#494949"
+					},
+					{
+						"name": "textSize",
+						"type": "dimen",
+						"value": "18sp"
+					}
+				]
+			},
+			{
+				"widget": "android.widget.TextView",
+				"properties": [{
+					"name": "id",
+					"type": "",
+					"value": "tv_Rone"
+				},
+					{
+						"name": "layout_width",
+						"type": "dimen",
+						"value": "wrap_content"
+					},
+					{
+						"name": "layout_height",
+						"type": "dimen",
+						"value": "wrap_content"
+					},
+
+					{
+						"name": "text",
+						"type": "string",
+						"value": "上海"
+					},
+					{
+						"name": "layout_marginTop",
+						"type": "dimen",
+						"value": "60dp"
+					},
+					{
+						"name": "layout_marginRight",
+						"type": "dimen",
+						"value": "34dp"
+					},
+					{
+						"name": "layout_alignParentRight",
+						"type": "boolean",
+						"value": "true"
+					},
+
+					{
+						"name": "textColor",
+						"type": "color",
+						"value": "#333333"
+					},
+					{
+						"name": "textSize",
+						"type": "dimen",
+						"value": "20sp"
+					}
+				]
+			},
+			{
+				"widget": "android.widget.TextView",
+				"properties": [
+					{
+						"name": "id",
+						"type": "",
+						"value": "tv_Rtwo"
+					},
+					{
+						"name": "layout_width",
+						"type": "dimen",
+						"value": "wrap_content"
+					},
+					{
+						"name": "layout_height",
+						"type": "dimen",
+						"value": "wrap_content"
+					},
+					{
+						"name": "layout_alignParentRight",
+						"type": "boolean",
+						"value": "true"
+					},
+					{
+						"name": "layout_below",
+						"type": "ref",
+						"value": "tv_one"
+					},
+					{
+						"name": "text",
+						"type": "string",
+						"value": "返程"
+					},
+					{
+						"name": "layout_marginTop",
+						"type": "dimen",
+						"value": "20dp"
+					},
+					{
+						"name": "layout_marginRight",
+						"type": "dimen",
+						"value": "34dp"
+					},
+					{
+						"name": "textColor",
+						"type": "color",
+						"value": "#494949"
+					},
+					{
+						"name": "textSize",
+						"type": "dimen",
+						"value": "12sp"
+					}
+				]
+			},
+			{
+				"widget": "android.widget.TextView",
+				"properties": [
+
+					{
+						"name": "id",
+						"type": "",
+						"value": "tv_Rthree"
+					},
+					{
+						"name": "layout_width",
+						"type": "dimen",
+						"value": "wrap_content"
+					},
+					{
+						"name": "layout_height",
+						"type": "dimen",
+						"value": "wrap_content"
+					},
+
+					{
+						"name": "text",
+						"type": "string",
+						"value": "6月6日(周三)"
+					},
+					{
+						"name": "layout_marginTop",
+						"type": "dimen",
+						"value": "8dp"
+					},
+					{
+						"name": "layout_marginRight",
+						"type": "dimen",
+						"value": "34dp"
+					},
+					{
+						"name": "layout_below",
+						"type": "ref",
+						"value": "tv_two"
+					},
+					{
+						"name": "textColor",
+						"type": "color",
+						"value": "#494949"
+					},
+					{
+						"name": "layout_alignParentRight",
+						"type": "boolean",
+						"value": "true"
+					},
+					{
+						"name": "textSize",
+						"type": "dimen",
+						"value": "18sp"
+					}
+				]
+			},
+			{
+				"widget": "android.widget.Button",
+				"properties": [{
+					"name": "id",
+					"type": "",
+					"value": "btn_query"
+				},
+					{
+						"name": "layout_width",
+						"type": "dimen",
+						"value": "159dp"
+					},
+					{
+						"name": "layout_height",
+						"type": "dimen",
+						"value": "40dp"
+					},
+
+					{
+						"name": "text",
+						"type": "string",
+						"value": "查询"
+					},
+
+					{
+						"name": "layout_marginTop",
+						"type": "dimen",
+						"value": "22dp"
+					},
+					{
+						"name": "layout_marginBottom",
+						"type": "dimen",
+						"value": "11dp"
+					},
+
+					{
+						"name": "layout_centerHorizontal",
+						"type": "boolean",
+						"value": "true"
+					},
+					{
+						"name": "background",
+						"type": "click",
+						"value": "http://www.baidu.com"
+					},
+					{
+						"name": "background",
+						"type": "ref",
+						"value": "shape+corners:8+color:'#f5942b'"
+					},
+					{
+						"name": "layout_below",
+						"type": "ref",
+						"value": "tv_Rthree"
+					},
+					{
+						"name": "textColor",
+						"type": "color",
+						"value": "#ffffff"
+					},
+					{
+						"name": "textSize",
+						"type": "dimen",
+						"value": "14sp"
+					}
+				]
+			}
+		]
+
+	}]
+}
